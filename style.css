@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+  word-break: keep-all;
+  background: #121212;
+  color: white;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  /* font-family: 'Noto Sans KR' !important; */
+}
+
+section{
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+footer{
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 0.8em;
+}
+
+h1{
+  font-size: 5em;
+  font-weight: bolder;
+
+}
+
+h2{
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 2em;
+  margin: 0 20px;
+  font-weight: bolder;
+}
+
+h4{
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+.relative{
+  position: relative;
+}
+.title{
+  text-align: center;
+  margin: 200px auto;
+}
+
+.threeImage{
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  float: left;
+  margin: 0 10px;
+}
+
+.imgContainer{
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.textContents{
+  /* width: 500px; */
+  margin: auto 20px;
+}
+
+.textAndImage{
+  display: flex;
+  margin: 80px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photographerTip,
+.modelTip{
+  width: 1000px;
+  margin: 140px auto;
+}
+
+.text{
+  width: 800px;
+  margin: auto;
+}
+
+.gradient-h1 {
+  display: inline;
+  background: linear-gradient(to right bottom, #f00, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+  background: linear-gradient(to right bottom, #f00, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imgBox{
+  width: 400px;
+  margin: 50px 0;
+}
+.img100{
+  width: 100px;
+}
+.flex{
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+ul{
+  position: fixed;
+  z-index: 1;
+  width: 50px;
+  top: 50%;
+  left: 90%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+li{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 0.9em;
+  background-color: #121212;
+  border-radius: 50px;
+  color: white;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+li:hover{
+  background-color: white;
+  color: #121212;
+}
+.textSection{
+  margin: 70px 0;
+}
+.endingCredit{
+  margin: 300px 100px;
+
+}
